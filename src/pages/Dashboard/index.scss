@@ -1,0 +1,15 @@
+.iconItem {
+    display: inline-block;
+    padding: 20px;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+
+.iconItem:hover {
+    background-color: #1677ff;
+    /* 设置鼠标移入时的背景颜色 */
+}
+
+.iconItem:hover svg {
+    fill: #fff;
+}
